@@ -87,7 +87,7 @@ function myMiles() {
     }, 0)
     document.getElementById("column4").innerHTML = (`Total Dollars Written Off Is ${totalDollars}`)
     document.getElementById("column5").innerHTML = (`Daily Odometer Begin Mileage Is ${dailyBeginMiles}`)
-    document.getElementById("column6").innerHTML = (`Daily Odometer End Mileage Is ${dailyBeginMiles}`)
+    document.getElementById("column6").innerHTML = (`Daily Odometer End Mileage Is ${dailyEndMiles}`)
     console.log(totalDollars)
     //return dailyDollars for dailyDollars 
     //return dailyMiles for the miles
